@@ -1,10 +1,7 @@
 python-grami
 =============
 
-A small Python implementation of simple graph mining utilities (MNI-based)
-for educational and experimental use. The repository provides lightweight
-representations for labeled graphs, pattern canonicalization, embedding
-enumeration and simple miners.
+A python implementation of Grami Based algorithm for mining subgraphs from single large graphs
 
 Structure
 ---------
@@ -31,21 +28,7 @@ python src\test.py
 This will build a small undirected triangle graph and run the default
 `SuGraMiMiner`, printing discovered frequent patterns and simple stats.
 
-Usage Notes
------------
 
-- The code is intentionally minimal and focuses on clarity over
-  performance. It is suitable for teaching and small-scale experiments.
-- `SoPaGraMiMiner` uses simple heuristics and edge-type pruning to reduce
-  the search space; `SuGraMiMiner` is the simpler reference implementation.
-
-Next Steps
-----------
-
-- Add tests under a `tests/` directory for regression and CI.
-- Add packaging (pyproject.toml) if you want to install the library.
-- Replace the brute-force embedding enumerator with a more optimized
-  VF2-like matcher for larger graphs.
 
 License
 -------

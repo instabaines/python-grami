@@ -38,7 +38,7 @@ references:
     year: 2020
     doi: "10.1016/j.engappai.2020.103539"
 
-  # CloGraMi reference (multi-thread/closed frequent subgraphs)
+  # CloGraMi reference (closed frequent subgraphs)
   - type: conference-paper
     title: "A Method for Closed Frequent Subgraph Mining in a Single Large Graph"
     authors:
@@ -54,5 +54,5 @@ references:
         family-names: Nguyen
       - given-names: Bay
         family-names: Vo
-    year: 2022
-    doi: "10.1007/978-3-031-21743-2_6"
+    year: 2021
+    doi: "10.1109/ACCESS.2021.3133666"
