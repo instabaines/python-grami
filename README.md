@@ -50,4 +50,5 @@ Next Steps
 License
 -------
 
-MIT-style (not included). Use according to your needs.
+This project is licensed under the Apache License, Version 2.0. See
+the `LICENSE` file for the full license text.
