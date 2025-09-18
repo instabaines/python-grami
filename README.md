@@ -35,3 +35,31 @@ License
 
 This project is licensed under the Apache License, Version 2.0. See
 the `LICENSE` file for the full license text.
+
+Citation
+-----
+
+If you use this software, please cite it as below and rference this implementation:
+### GraMi
+
+```
+@article{elseidy2015grami,
+  title={Grami: Frequent subgraph and pattern mining in a single large graph},
+  author={Elseidy, Mohammed and Abdelhamid, Ehab and Skiadopoulos, Spiros and Kalnis, Panos},
+  year={2015},
+  publisher={Association for Computing Machinery (ACM)}
+}
+```
+
+### SuGraMi, SoGraMi, PaGraMi (SoPaGraMi)
+```
+@article{nguyen2020fast,
+  title={Fast and scalable algorithms for mining subgraphs in a single large graph},
+  author={Nguyen, Lam BQ and Vo, Bay and Le, Ngoc-Thao and Snasel, Vaclav and Zelinka, Ivan},
+  journal={Engineering Applications of Artificial Intelligence},
+  volume={90},
+  pages={103539},
+  year={2020},
+  publisher={Elsevier}
+}
+```
